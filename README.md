@@ -41,7 +41,7 @@ git clone <repository.url>
 
 - python -m venv .venv
 
-## Activate the svirtual environment
+## Activate the virtual environment
 
 - .venv\Scripts\activate
 
@@ -53,7 +53,7 @@ git clone <repository.url>
 
 - pytest
 
-Expected result
+## Expected result
 
 - 5 passed
 
@@ -73,7 +73,7 @@ cleaned_data = remove_missing_values(data)
 print(cleaned_data)
 
 
-## Example Usage
+## Expected Outcome
 
 [
     "Michael",
