@@ -9,6 +9,17 @@ A small typed Python utility module for cleaning missing values from datasets.
 - Includes input validation and error handling
 - Includes automated tests using pytest
 
+## How It Works
+
+The utility processes a list of values and removes missing entries.
+
+The function:
+
+1. Accepts a list containing strings and missing values.
+2. Checks each item.
+3. Removes empty strings and `None` values.
+4. Returns a clean list containing valid strings.
+
 ## Project Structure
 
 data-cleaning-utility/
