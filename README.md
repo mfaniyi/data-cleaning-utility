@@ -35,7 +35,11 @@ data-cleaning-utility/
 Clone the repository:
 
 - '''bash
-git clone <repository.url>
+git clone https://github.com/mfaniyi/data-cleaning-utility.git
+
+## Navigate into the project folder
+
+- cd data-cleaning-utility
 
 ## Create a virtual environment
 
@@ -49,7 +53,7 @@ git clone <repository.url>
 
 - pip install -r requirements.txt
 
-## Run
+## Run the test suite
 
 - pytest
 
