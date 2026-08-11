@@ -7,7 +7,7 @@ A small typed Python utility module for cleaning missing values from datasets.
 - Removes empty strings and missing values (`None`)
 - Uses Python type hints
 - Includes input validation and error handling
-- Includes automated tests using pytest
+- Includes automated tests using `pytest`
 
 ## How It Works
 
@@ -22,6 +22,7 @@ The function:
 
 ## Project Structure
 
+```text
 data-cleaning-utility/
 │
 ├── data_cleaner.py
@@ -29,40 +30,55 @@ data-cleaning-utility/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
 ## Installation
 
-Clone the repository:
+### Clone the repository:
 
-- '''bash
+```bash
 git clone https://github.com/mfaniyi/data-cleaning-utility.git
+```
 
-## Navigate into the project folder
+### Navigate into the project folder
 
-- cd data-cleaning-utility
+```bash
+cd data-cleaning-utility
+```
 
-## Create a virtual environment
+### Create a virtual environment
 
-- python -m venv .venv
+```bash
+python -m venv .venv
+```
 
-## Activate the virtual environment
+### Activate the virtual environment
 
-- .venv\Scripts\activate
+```bash
+.venv\Scripts\activate
+```
 
-## Install depencies
+### Install dependencies
 
-- pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
 
 ## Run the test suite
 
-- pytest
+```bash
+pytest
+```
 
-## Expected result
+### Expected result
 
+```text
 - 5 passed
+```
 
 ## Example Usage
 
+```python
 from data_cleaner import remove_missing_values
 
 data = [
@@ -75,13 +91,19 @@ data = [
 cleaned_data = remove_missing_values(data)
 
 print(cleaned_data)
+```
 
+### Expected Outcome
 
-## Expected Outcome
+```python
+["Michael", "Faniyi"]
+```
 
-[
-    "Michael",
-    "Faniyi"
-]
+## Requirements
 
+- Python 3.14 or later
+- pytest
 
+## License
+
+This project was created as an assignment to the first week of AI/ML Transition Cohort
