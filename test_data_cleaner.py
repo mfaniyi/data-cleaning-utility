@@ -1,3 +1,4 @@
+import pytest
 from data_cleaner import remove_missing_values
 
 def test_remove_missing_values():
@@ -26,14 +27,10 @@ def test_all_missing_values():
 
 
 def test_invalid_input_type():
-    try:
+    with pytest.raises(TypeError):
         remove_missing_values("Michael")
-    except TypeError:
-        assert True
 
 
 def test_invalid_item_type():
-    try:
+    with pytest.raises(TypeError):
         remove_missing_values(["Michael", 123])
-    except TypeError:
-        assert True
