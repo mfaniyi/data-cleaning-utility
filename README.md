@@ -107,3 +107,6 @@ print(cleaned_data)
 ## License
 
 This project was created as an assignment to the first week of AI/ML Transition Cohort
+
+### Class Assessment 
+This is just for the purpose of class assessment
